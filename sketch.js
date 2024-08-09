@@ -17,7 +17,7 @@ function draw() {
   let maximo = width;
   let minimo = 0;
   // mouseX, 0, width ==> 0, palavra.length
-  let palavra = "Caminhante";
+  let palavra = "Chocolate";
   let quantidade = map(mouseX, 0, width, 1, palavra.length);
   //console.log(quantidade);
   let parcial = palavra.substring(0, quantidade);
